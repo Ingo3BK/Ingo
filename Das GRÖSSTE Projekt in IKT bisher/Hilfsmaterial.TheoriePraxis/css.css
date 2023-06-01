@@ -1,0 +1,16 @@
+selector {
+  property: value;
+}
+
+h1 {
+  color: pink;
+  text-align: left, right, center
+  font-style: Name_der_Schriftart;
+  font-syze: ;
+  background-color: ;
+  background-image: Name_der_Datei;
+}
+
+#h1_1 {
+  color: red;
+}

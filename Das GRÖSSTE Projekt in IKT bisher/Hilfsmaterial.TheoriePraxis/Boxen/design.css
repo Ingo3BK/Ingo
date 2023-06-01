@@ -1,0 +1,28 @@
+p.kursiv {
+  font-style: italic;
+}
+p.test {
+  font-size: 30px;
+}
+div {
+  background-color: #b0b0b0;
+  height: 100px;
+  width: 300px;
+  padding: 10px;
+  border-style: dotted;
+  border-color: pink;
+  border-width: 3px;
+}
+span {
+  background-color: #654321;
+}
+div.rechts {
+  background-color: green;
+  display: inline-block;
+  margin-top: 200px;
+  float: left;
+  border-style: solid;
+  border-color: #509843;
+  border-width: 1px;
+  overflow: scroll;
+}

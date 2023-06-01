@@ -1,0 +1,14 @@
+#h10 {
+  color: #dbdbdb;
+  font-family: Arial;
+}
+body {
+  background-color: #909090;
+}
+.NewBackground {
+  background-color: #ff0000;
+}
+.NewFont {
+  font-family: "Consolas";
+  color: #ff00ff;
+}

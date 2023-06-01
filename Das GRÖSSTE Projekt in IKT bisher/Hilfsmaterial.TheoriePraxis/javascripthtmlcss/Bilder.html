@@ -1,0 +1,51 @@
+<!DOCTYP html>
+<html lang ="de">
+<head>
+	<link rel="stylesheet" type="text/css" href="design.css">
+	<meta charset = "UTF-8">
+	<meta name="viewport" content="width-device-width, inital-scale=1.0">
+	<title> krasse Bilder </title>
+	<script>
+		function SizeUp() {
+      document.getElementById("img0").className="Image";
+    }
+		function ZizeUp() {
+      document.getElementById("img1").className="Image";
+    }
+		function RizeUp() {
+      document.getElementById("img2").className="Image";
+    }
+		function MizeUp() {
+      document.getElementById("img3").className="Image";
+    }
+		function CizeUp() {
+      document.getElementById("img4").className="Image";
+    }
+		function SizeDown() {
+      document.getElementById("img0").className="Imag";
+    }
+		function ZizeDown() {
+      document.getElementById("img1").className="Imag";
+    }
+		function RizeDown() {
+      document.getElementById("img2").className="Imag";
+    }
+		function MizeDown() {
+      document.getElementById("img3").className="Imag";
+    }
+		function CizeDown() {
+      document.getElementById("img4").className="Imag";
+    }
+	</script>
+</head>
+<body>
+	<h1> Meine Bilder </h1>
+	<div>
+		<img id="img0" onclick="SizeUp()" ondblclick="SizeDown()" src="haus.jfif" alt="Haus eines Vogels" width=200px>
+		<img id="img1" onclick="ZizeUp()" ondblclick="ZizeDown()" src="teokopf.png" alt="Teo ausgeschnitten" width=200px>
+		<img id="img2" onclick="RizeUp()" ondblclick="RizeDown()" src="heu.jfif" alt="Heuschrecke auf Glas" width=200px>
+		<img id="img3" onclick="MizeUp()" ondblclick="MizeDown()" src="teo.jfif" alt="Teo in mono" width=200px>
+		<img id="img4" onclick="CizeUp()" ondblclick="CizeDown()" src="bild.jfif" alt="Teo in happy" width=200px>
+	</div>
+</body>
+</html>

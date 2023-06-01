@@ -1,0 +1,49 @@
+<!DOCTYP html>
+<html lang ="de">
+<head>
+   <link rel="stylesheet" type="text/css" href="css.css">
+   <meta charset = "UTF-8">
+   <meta name="viewport" content="width-device-width, inital-scale=1.0">
+   <title> 1. Lernkontrolle IKT </title>
+  <script>
+    function ChangeBackground() {
+      document.body.className="NewBackground";
+    }
+    function ChangeFont() {
+      document.getElementById("NewFont").className="NewFont";
+    }
+    function PopUp() {
+      alert("Deine Hose ist NASS");
+    }
+    function PopUp0() {
+      alert("Nein... Mach Spaß");
+    }
+    function PopUp1() {
+      alert(":*");
+    }
+    function popup() {
+			window.open("teokopf.png", "Popup-Fenster", "width=400,height=400");
+    }
+  </script>
+</head>
+<body>
+  <h1 id="h10"> Funktionen und Buttons </h1>
+  <p> Name: </p><div id="nema"> </div>
+  <div id="div0">
+    <button onclick="ChangeBackground()"> hier passiert nichts </buttons>
+  </div>
+  <div id="NewFont">
+    <p> Ford FOCUS RS Mk2 2.5l R5 Motor 305PS </p>
+    <button onclick="ChangeFont()"> Ändere die Schriftfarbe/-art </button>
+  </div>
+  <button onclick="PopUp()"> Was? </button>
+  <button onclick="PopUp0()"> Echt jetzt? </button>
+  <button onclick="PopUp1()"> Ohhh, gib ihm brrraa! </button>
+  <script>
+    var Name = prompt("Jak sie nazywasz kolego?")
+    document.getElementById("nema").innerHTML = Name;
+    console.lng(Name)
+  </script>
+  <button onclick="popup()">Popup-Fenster öffnen</button>
+</body>
+</html>
